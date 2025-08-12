@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS layout</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        header{
+            position: sticky;
+            top: 0px;
+        }
+
+        .navbar{
+            background-color: pink;
+            height: 60px;
+           
+        }
+
+        .boxes{
+            height: 500px;
+            background-color: green;
+            margin: 5px 12px;
+            display: flex;
+        }
+
+        .box1{
+            background-color: rgb(209, 94, 113);
+            
+            width: 45%;
+            margin: 15px 30px;
+            
+            
+        }
+
+        .box2{
+            background-color: aqua;
+            margin-left: 10%;
+            width: 45%;
+            margin: 15px 30px;
+            
+        }
+
+        .container{
+            height: 180px;
+            border: 2px solid black;
+            margin: 5px 80px;
+            border-radius: 15px;
+        }
+
+        .logo{
+            background-color: blue;
+            height: 40px;
+            width: 40px;
+            position: relative;
+            left:96%;
+            bottom: 90px;
+            border-radius: 20px;
+            position: fixed;
+            
+        }
+
+        .foot{
+            height: 160px;
+            border: 2px solid black;
+            margin: 10px 25px;
+            border-radius: 15px;
+        }
+
+        .container p{
+            text-align: center;
+            font-size: 2em;
+            margin-top: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="boxes">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde totam aspernatur vel quisquam velit aliquid maiores, ad consectetur reprehenderit suscipit expedita vitae rem placeat voluptatibus maxime. Blanditiis ad unde quas commodi molestiae fugiat aut pariatur vel expedita harum nemo eveniet, quidem totam odit et voluptate nam praesentium facere neque architecto.</p>
+        </div>
+
+        <div class="logo">
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+
+        </div>
+    </footer>
+</body>
+</html>
