@@ -1,0 +1,23 @@
+.text{
+    font-size: 150px;
+    text-align: center;
+}
+
+.btns{
+    text-align: center;
+}
+
+
+
+.btn{
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 7px;
+    background-color: aqua;
+
+}
+
+.btn:hover{
+    color: white;
+    background-color: gray;
+}
